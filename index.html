@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Web Technology</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        header {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 30px 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #0f172a;
+        }
+        header h1 {
+            color: #ffffff;
+            margin: 0;
+        }
+        .hero-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            background: #ffffff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #1e293b;
+            color: #ffffff;
+        }
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #1e293b;
+            color: #cbd5e1;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADING -->
+    <header>
+        <h1>Introduction to Web Technology</h1>
+        <p>How the Modern Internet Connects, Renders, and Communicates</p>
+    </header>
+
+    <main>
+        <!-- IMAGE & PARAGRAPH -->
+        <section>
+            <h2>What is Web Technology?</h2>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" 
+                 alt="Laptop displaying web development code" 
+                 class="hero-image">
+            <p>
+                <strong>Web technology</strong> refers to the tools, markup languages, protocols, and multimedia packages that computers use to communicate with one another over the internet. Whenever you open a browser, load a social media feed, or submit an online form, a coordinated stack of front-end and back-end technologies works behind the scenes to deliver data securely and display it visually on your screen.
+            </p>
+            <p>
+                At its core, the web relies on a <strong>client-server model</strong>. Your web browser (the client) sends a request using HTTP/HTTPS to a remote computer (the server), which processes the request and sends back files—such as HTML, CSS, and JavaScript—that your browser translates into an interactive webpage.
+            </p>
+        </section>
+
+        <!-- LIST -->
+        <section>
+            <h2>Core Pillars of Web Development</h2>
+            <p>Building modern web applications requires mastering several foundational layers:</p>
+            <ul>
+                <li><strong>HTML (HyperText Markup Language):</strong> Defines the structural skeleton and content of a webpage.</li>
+                <li><strong>CSS (Cascading Style Sheets):</strong> Controls visual presentation, layout, colors, and responsive sizing across devices.</li>
+                <li><strong>JavaScript:</strong> Adds dynamic interactivity, real-time updates, and client-side logic.</li>
+                <li><strong>Web Protocols (HTTP/HTTPS &amp; DNS):</strong> Govern how domain names resolve to IP addresses and how data packets travel securely.</li>
+                <li><strong>Backend &amp; Databases:</strong> Server-side environments (like Node.js, Python, or PHP) and storage systems (SQL/NoSQL) that manage user authentication and business logic.</li>
+            </ul>
+        </section>
+
+        <!-- TABLE -->
+        <section>
+            <h2>Frontend vs. Backend Technologies</h2>
+            <p>The table below compares the two primary halves of web engineering:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Layer</th>
+                        <th>Primary Role</th>
+                        <th>Common Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Frontend (Client-Side)</strong></td>
+                        <td>Handles everything the user sees and interacts with directly in the browser.</td>
+                        <td>HTML5, CSS3, JavaScript, React, Vue</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Backend (Server-Side)</strong></td>
+                        <td>Processes business logic, manages security, and communicates with databases.</td>
+                        <td>Node.js, Python, Java, PHP, Go</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Database</strong></td>
+                        <td>Stores, organizes, and retrieves persistent application data.</td>
+                        <td>PostgreSQL, MySQL, MongoDB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- LINK -->
+        <section>
+            <h2>Further Reading &amp; Documentation</h2>
+            <p>
+                To explore official web standards, tutorials, and interactive documentation, visit the 
+                <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noopener noreferrer">
+                    MDN Web Docs (Mozilla Developer Network)
+                </a>.
+            </p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Web Technology Assignment | Created &amp; Hosted via GitHub Pages</p>
+    </footer>
+
+</body>
+                          </html>
+                          
